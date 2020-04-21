@@ -8,21 +8,15 @@ function Nav() {
                 <NavLink href="/">
                     Home
                 </NavLink>
-                <li className={styles.item}>
-                    <NavLink href="/genericbot">
-                        GenericBot
-                    </NavLink>
-                </li>
-                <li className={styles.item}>
-                    <NavLink href="/cdn">
-                        CDN
-                    </NavLink>
-                </li>
-                <li className={styles.item}>
-                    <NavLink href="/projects">
-                        Other Projects
-                    </NavLink>
-                </li>
+                <NavLink href="/genericbot">
+                    GenericBot
+                </NavLink>
+                <NavLink href="/cdn">
+                    CDN
+                </NavLink>
+                <NavLink href="/projects">
+                    Other Projects
+                </NavLink>
             </ul>
         </nav>
     )
