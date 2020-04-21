@@ -13,8 +13,8 @@ function WhoAmI() {
             </span>
 
             <div className={styles.links}>
-            <a href="#" className={styles.button}>Github</a>
-            <a href="#" className={styles.button}>Resume</a>
+            <a href="https://github.com/galenguyer" className={styles.button}>Github</a>
+            <a href="https://cdn.galenguyer.com/doc/Galen_Guyer_Resume-2020-04-21_19-04-34.pdf" className={styles.button}>Resume</a>
             </div>
         </div>
     )
