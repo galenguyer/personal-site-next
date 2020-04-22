@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "cross-env NODE_ENV=development node server.js",
     "build": "next build",
-    "start": "next start",
+    "start": "cross-env NODE_ENV=production node server.js",
     "export": "cross-env NEXT_EXPORT=true next build && cross-env NEXT_EXPORT=true next export"
   },
   "dependencies": {
-    "next": "canary",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "next": "^9.3.6-canary.8",
     "next-offline": "4.0.6",
     "react": "16.12.0",
     "react-dom": "16.12.0"
