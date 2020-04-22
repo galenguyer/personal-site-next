@@ -5,7 +5,7 @@ import styles from '../../styles/genericbot.module.css';
 export default () => (
   <div id='container'>
     <Header />
-    <div className={styles.container}>
+    <div id='body' className={styles.container}>
         <h3 className={styles.header}>Hosting</h3>
         <p>GenericBot is hosted on my personal server, which is hosted by <a href="https://csh.rit.edu">Computer Science House</a>, who provides power and gigabit ethernet. The server has two Intel Xeon X5650 CPUs, giving it a total of 12 cores and 24 threads. It currently has 32GB DDR3 ECC RAM, with space for up to 144GB. 6 of the 12 hard drive bays are populated with 3TB Seagate Constellation ES.2 7.2K SAS drives in a hardware-configured RAID6, providing two-drive failure tolerance and 12TB of usable space</p>
         <h3 className={styles.header}>Database</h3>

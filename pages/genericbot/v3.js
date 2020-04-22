@@ -5,7 +5,7 @@ export default () => {
     return (
         <div id='container'>
             <Header />
-            <div className={styles.container}>
+            <div id='body' className={styles.container}>
                 <h3 className={styles.header}>Databases</h3>
                 <p>In the 2 years GenericBot has existed, I've used three different databases as requirements have changed and the bot has scaled. When I started writing it, data was stored in json files, one per server the bot was on.</p>
                 <p>This worked fine when only a handlful of people used it, but then I started running into issues with concurrent file IO that culminated in data loss. I quickly moved it to <a href="https://www.litedb.org/">LiteDB</a>, an embedded NoSQL database, which solved my concurrency issues and had the benefit of easy password protection. LiteDB is a small project, however, and there aren't many tools for managing it. After a few months of using LiteDB, I started looking for a more powerful alternative.</p>
