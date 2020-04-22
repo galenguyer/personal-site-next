@@ -1,9 +1,14 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import Header from '../../components/header';
 import styles from '../../styles/project.module.css';
 
 export default () => (
   <div id='container'>
+    <Head>
+      <title>Galen Guyer | GenericBot</title>
+      <meta name="description" content="GenericBot is a Discord bot I wrote as a fun project that has grown far bigger than I ever expected. It aims to provide an almost full featured moderation and fun box experience in one convenient package" />
+    </Head>
     <Header />
     <div id='body' className={styles.container}>
         <h3 className={styles.header}>Hosting</h3>

@@ -1,9 +1,14 @@
+import Head from 'next/head';
 import Header from '../components/header';
 import styles from '../styles/project.module.css';
 
 export default () => {
     return (
         <div id='container'>
+            <Head>
+                <title>Galen Guyer | CDN</title>
+                <meta name="description" content="I built a CDN with Azure! This is why and how I did it." />
+            </Head>
             <Header />
             <div id='body' className={styles.container}>
                 <h3 className={styles.header}>Inspiration</h3>

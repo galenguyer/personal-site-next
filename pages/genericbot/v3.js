@@ -1,9 +1,14 @@
+import Head from 'next/head';
 import Header from '../../components/header';
 import styles from '../../styles/project.module.css';
 
 export default () => {
     return (
         <div id='container'>
+            <Head>
+                <title>Galen Guyer | GenericBot v3</title>
+                <meta name="description" content="A ground-up rewrite for my project GenericBot to improve maintainability (and my sanity)" />
+            </Head>
             <Header />
             <div id='body' className={styles.container}>
                 <h3 className={styles.header}>Databases</h3>

@@ -10,7 +10,10 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <meta charSet="UTF-8" />
           <link rel="manifest" href="/manifest.json" />
+          <meta name="author" content="Galen Guyer" />
+          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
         <body>
           <Main />
