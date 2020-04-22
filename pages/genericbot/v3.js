@@ -1,5 +1,5 @@
 import Header from '../../components/header';
-import styles from '../../styles/genericbot.module.css';
+import styles from '../../styles/project.module.css';
 
 export default () => {
     return (
