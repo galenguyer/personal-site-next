@@ -27,6 +27,8 @@
 .name a {
     cursor: pointer;
     border-bottom-color: transparent;
+    text-decoration: none;
+    color: #ffffff;
     -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
     -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -34,8 +36,6 @@
 }
 .name a:hover{
     border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-    color: #ffffff;
-    text-decoration: none;
 }
 .description {
     display: block;

@@ -5,9 +5,9 @@ function Logo() {
     return (
         <div className={styles.logo}>
             <div className={styles.bars}>
-                <Link href='/'>
-                    <h1 className={styles.name}><a>Galen Guyer</a></h1>
-                </Link>
+                <h1 className={styles.name}>
+                    <Link href='/'><a>Galen Guyer</a></Link>
+                </h1>
                 <span className={styles.description}>Full-Stack Software Engineer</span>
             </div>
         </div>
