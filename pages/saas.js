@@ -9,7 +9,7 @@ function SaaS ({ data }) {
     });
     return (
         <div className={styles.container}>
-            <h1 className={styles.title}>{lines[Math.floor(Math.random()*lines.length)]}</h1>
+            <h1 className={styles.title}>{lines[Math.min(lines.length-1, (lines.length%12))]}</h1>
                 <div className={styles.inner}>
                 <h5>An Ephemeral, Sad Song by Sufjan (as a Service) Stevens</h5>
                 <hr />
